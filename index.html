@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>day 11 dom challenges</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <p class="counter"></p>
+    <button data-price="2" class="popButton">Vanilla Coke</button>
+    <button data-price="1.50" class="chocolateButton">Kit-Kat Bar</button>
+    <button data-price="2.50" class="candyButton">Skittles</button>
+    <button data-price="1" class="chipButton">Pretzles</button>
+  </div>
+  <div>
+    <form class="makeMoney">
+      <label for="howMany">How many?</label>
+      <input type="number" min="0" id="howMany" name="howMany"/>
+      <label for="whichCoin">Which coin?</label>
+      <select name="whichCoin" id="whichCoin">
+        <option value="penny">Penny</option>
+        <option value="nickel">Nickel</option>
+        <option value="dime">Dime</option>
+        <option value="quarter">Quarter</option>
+      </select>
+      <button>Make Money!</button>
+      <div class="showCoin"></div>
+    </form>
+  </div>
+  <div>
+    <p class="lightIsOff">Light Bulb</p>
+    <button class="on">On</button>
+    <button class="off">Off</button>
+    <button class="toggle">Toggle</button>
+    <button class="end">End</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
